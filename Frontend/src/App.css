@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.App{
+    background-color: #FD8A8A;
+    text-align: center;
+    height: 54vh;
+}
+.App .text{
+	max-width: 1300vh;
+	padding: 40px 80px;
+  height:50vh;
+	text-align: center;
+  color:white;
+}
+.App .text h1{
+  font-size: 55px;
+  font-weight: 700;
+}
+.App .text p{
+  margin:10px 0px;
+  font-size: 18px;
+}
+.App .text .title{
+  text-align: center;
+  padding:30px 10px;
+  font-size: 20px;
+}
+.App .yours{
+  
+}
+.App .text .image{
+  text-align: center;
+  padding:5px 10px 5px 10px;
+  font-size: 20px;
+}
+.App .text .title input{
+  margin:5px 10px 5px 10px;
+  width:200px;
+  height: 30px;
+  border: 2px solid #6096B4;
+  background-color: white;
+}
+.App .text .image input{
+  margin:30px 10px 10px 10px;
+  width:200px;
+  height: 30px;
+}
+.App .text .title input:hover{
+  border: 2px solid #6096B4;
+}
+.upload{
+  background-color: #6096B4;
+  border: 2px solid #6096B4;
+  color: white;
+  width:15%;
+  height: 6vh;
+  font-size: 18px;
+  margin:0px 10px;
+}
+.upload:hover{
+  background-color: white;
+  border: 3px solid #6096B4;
+  color:#6096B4;
+  
+}
+.servcontent .card{
+  display: inline-block;
+  width: calc(32% - 30px);
+  background-color: white;
+  text-align: center;
+  border-radius:6px;
+  padding: 20px 20px 15px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3 ease;
+  margin-top: 50px;
+  border-color:#E3E8E8;
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  height:40vh;
+}
+.servcontent .card .box{
+transition: all 0.3 ease;
+}
+.servcontent .card:hover .box{
+transform: scaleX(1.05);
+}
+.servcontent .card:hover{
+  transform: scale(1, 1.1);
+}
+.servcontent  .card img{
+  background-color:#EBF2FF;
+  padding: 1px;
+  width:50vh;
+}
+h4{
+  font-size: 13px;
+}
+.slider{
+  padding: 20px;
+}
+.slider h1 {
+  margin: 20px;
+}
+.slider h1 span{
+  color: white;
+}
+.slider .servcontent .card .box .text{
+  color: rgb(255, 254, 254);
+  font-size: 16px;
+  font-weight: 600;
+  margin:10px 0px 7px 0px;
+  font-family: 'Ubuntu',sans-serif;
+}
+.slider button{
+  width:150px;
+  background-color: #6096B4;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 20px;
+  margin:10px 0px; 
+}

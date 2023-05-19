@@ -1,0 +1,81 @@
+body{
+    margin: 5% 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: rgb(45, 45, 45);
+    text-align: justify;
+}
+Button{
+    width: 300px;
+    background-color: rgb(0, 110, 255);
+    border: 2px solid rgb(0, 110, 255);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label {
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+  }
+textarea {
+    border: 1px solid #888; 
+  }
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;
+}
+.custom-radio,
+.checkbcustom-checkboxox {
+  position: relative;
+  margin: 20px 0;
+}
+.checkbox { display: block; }
+.custom-radio input,
+.custom-checkbox input {
+  position: absolute;
+  margin: 5px;
+  padding: 0;
+  /* for mobile accessibility (iOS Label Bug) */
+  visibility: hidden;
+}
+.custom-radio label,
+.custom-checkbox .label {
+  margin-left: 2em;
+  margin-bottom: 0;
+}
+
+select {
+display: none; 
+padding:10px;
+}
+option{
+background-color: rgb(171, 171, 171);
+padding: 10px;
+}
+img{
+  width:100px;
+  height:100px;
+}

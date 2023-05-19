@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;500;600&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.main{
+    background-color: #434242;
+    text-align: center;
+    height: 100%;
+}
+.main .maxwidth{
+	max-width: 1300vh;
+	padding: 100px 80px;
+  height:62vh;
+  margin:auto;
+}
+.main .maxwidth .box{
+    text-align: center;
+    margin: 0 30%;
+}
+.main .maxwidth .box h2{
+    color: white;
+    font-size: 70px;
+}
+.main .maxwidth .box p{
+    margin:4% 0;
+    color: white;
+    font-size: 20px;
+}
+.Content .outer {
+    display: inline-block;
+    display: flex;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.Content .outer .left{
+    width: 50%;
+}
+.Content .outer .left img{
+    margin:2% 0;
+    width:90%;
+
+} 
+.Content .outer .left .content-box{
+    width:20%;
+    background-color: rgb(29, 27, 26);
+}
+.Content .outer .right{
+    margin: 40px 0px;
+    width: 44%;
+    height: 50vh;
+    background-color: #F55050;
+    border-radius: 20px;
+}
+.Content .outer .right .text{
+    margin:16% 10%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.Content .outer .right .text p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.button{
+    margin: 40px 0px;
+    
+}
+.button p{
+    color: hsl(0, 57%, 97%);
+    font-size: 50px!important;
+    font-weight: bold!important;
+    font-family: monospace;
+    letter-spacing: 7px!important;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.button p {
+    padding: 10px;
+    background: linear-gradient(to right, hsl(0, 1%, 16%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 2%, 22%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+.Btn{
+    margin: -60px 0px;
+    
+}
+.Btn span{
+    color: hsl(0, 57%, 97%);
+    font-size: 20px!important;
+    font-weight: bold!important;
+    font-family: monospace;
+    letter-spacing: 7px!important;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.Btn span {
+    padding: 10px;
+    background: linear-gradient(to right, hsl(0, 49%, 40%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 50%, 44%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+.tech{
+    width:100%;
+    height:30vh;
+    background-color: #6096B4;
+}
